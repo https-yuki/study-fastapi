@@ -1,0 +1,8 @@
+.env
+.env.*
+docker/postgres
+docker/pgadmin
+**/__pycache__/
+app/.pytest_cache
+app/routers/auth.py
+app/crud/auth.py
