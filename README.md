@@ -9,7 +9,7 @@ docker compose up -d
 # fastapiコンテナに入る
 docker exec -it fastapi bash
 
-# マイグレーションを作成
+# マイグレーションを実行
 alembic upgrade head
 
 # テスト実行
